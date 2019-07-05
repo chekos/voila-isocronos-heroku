@@ -4,6 +4,7 @@ channels:
 dependencies:
   - osmnx
   - ipywidgets
+  - pip
   - pip:
     - arrow
     - voila
