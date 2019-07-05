@@ -1,2 +1,4 @@
 rm -rf ../../srv/conda/envs/notebook/share/jupyter/voila/templates/default
 cp -r ~/voila-template ../../srv/conda/envs/notebook/share/jupyter/voila/templates/default
+
+jupyter labextension install @jupyter-widgets/jupyterlab-manager -y
