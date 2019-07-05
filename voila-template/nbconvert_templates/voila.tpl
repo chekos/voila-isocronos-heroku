@@ -54,7 +54,7 @@ a.anchor-link {
     </div>
     <div class="col-sm-4">
         <div class="ppic-entry-line">
-          <img src="https://tacosdedatos.com/assets/images/yo.jpg" alt="Foto Sergio Sánchez Zavala" style="max-width:40px;">
+          <img src="https://tacosdedatos.com/assets/images/yo.jpg" alt="Foto Sergio Sánchez Zavala" style="max-width:200px;">
           <a href="https://twitter.com/tacosdedatos">
           <br>@tacosdedatos</a>
           <br>Sergio Sánchez Zavala
