@@ -45,7 +45,7 @@ a.anchor-link {
 <div class="container">
   <div class="row justify-content-md-center">
     <div class="col header">
-      <img src="https://tacosdedatos.com/assets/images/chekos-cover.PNG" alt="tacos de datos banner">
+      <img src="https://tacosdedatos.com/assets/images/blog-cover.png" alt="tacos de datos banner">
     </div>
   </div>
   <div class="row justify-content-md-center">
@@ -54,7 +54,7 @@ a.anchor-link {
     </div>
     <div class="col-sm-4">
         <div class="ppic-entry-line">
-          <img src="https://tacosdedatos.com/assets/images/yo.jpg" alt="Foto Sergio Sánchez Zavala">
+          <img src="https://tacosdedatos.com/assets/images/yo.jpg" alt="Foto Sergio Sánchez Zavala" style="max-width:40px;">
           <a href="https://twitter.com/tacosdedatos">
           <br>@tacosdedatos</a>
           <br>Sergio Sánchez Zavala

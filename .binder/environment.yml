@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - osmnx
-  - ipywidgets
+  - ipywidgets==7.4.2
   - pip
   - pip:
     - arrow
