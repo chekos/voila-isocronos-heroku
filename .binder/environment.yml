@@ -2,8 +2,8 @@ name: isocronos-colegios
 channels:
   - conda-forge
 dependencies:
-  - pandas
-  - altair
-  - pip
+  - osmnx
   - pip:
     - arrow
+    - voila
+    - ipywidgets
