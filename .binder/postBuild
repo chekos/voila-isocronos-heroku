@@ -1,0 +1,2 @@
+rm -rf ../../srv/conda/envs/notebook/share/jupyter/voila/templates/default
+cp -r ~/voila-template ../../srv/conda/envs/notebook/share/jupyter/voila/templates/default
