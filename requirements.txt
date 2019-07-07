@@ -1,0 +1,3 @@
+ipywidgets==7.4.*
+voila
+arrow
