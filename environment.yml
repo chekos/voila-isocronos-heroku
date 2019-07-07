@@ -1,5 +1,0 @@
-name: isocronos-colegios
-channels:
-  - conda-forge
-dependencies:
-  - osmnx
