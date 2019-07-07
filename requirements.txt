@@ -1,3 +1,0 @@
-osmnx
-voila
-ipywidgets==7.4.*
