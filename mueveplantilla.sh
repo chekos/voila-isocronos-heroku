@@ -2,7 +2,7 @@
 # cp -r ~/voila-template ../../srv/conda/envs/notebook/share/jupyter/voila/templates/default
 
 # mueve plantilla
-rm -rf .heroku/python/share/jupyter/voila/templates
+rm -rf .heroku/python/share/jupyter/voila/templates/default/nbconvert_templates/voila.tpl
 
 cp ./voila-template/nbconvert_templates/voila.tpl .heroku/python/share/jupyter/voila/templates/default/nbconvert_templates/voila.tpl
 
