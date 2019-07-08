@@ -1,2 +1,2 @@
 worker: bash ./mueveplantilla.sh 
-web: voila --port=$PORT --no-browser notebooks/voila-colegios.ipynb --template=tdd-template
+web: bash ./mueveplantilla.sh && voila --port=$PORT --no-browser notebooks/voila-colegios.ipynb --template=tdd-template
