@@ -1,4 +1,5 @@
 ipywidgets==7.4.2
 voila
-arrow 
+arrow
+osmnx
 rtree
