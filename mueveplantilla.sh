@@ -3,21 +3,16 @@
 
 # crea plantilla
 mkdir ~/.local/share/jupyter/voila/templates/tdd-template
-cd ~/.local/share/jupyter/voila/templates/tdd-template
+#cd ~/.local/share/jupyter/voila/templates/tdd-template
 
 # copia contenidos
-cp -r .heroku/python/share/jupyter/voila/templates/default/nbconvert_templates ./
-cp -r .heroku/python/share/jupyter/voila/templates/default/templates ./
+cp -r .heroku/python/share/jupyter/voila/templates/default/nbconvert_templates ~/.local/share/jupyter/voila/templates/tdd-template/
+cp -r .heroku/python/share/jupyter/voila/templates/default/templates ~/.local/share/jupyter/voila/templates/tdd-template/
 
 # mueve plantilla
-rm -f nbconvert_templates/voila.tpl
-cp ~/voila-template/nbconvert_templates/voila.tpl nbconvert_templates/voila.tpl
+rm -f ~/.local/share/jupyter/voila/templates/tdd-template/nbconvert_templates/voila.tpl
+cp ~/voila-template/nbconvert_templates/voila.tpl ~/.local/share/jupyter/voila/templates/tdd-template/nbconvert_templates/voila.tpl
 
 # agrega css
-touch static/tacosdedatos-global.css
-touch static/tacosdedatos-screen.css
-
-cp ~/voila-template/static/tacosdedatos-global.css static/tacosdedatos-global.css
-cp ~/voila-template/static/tacosdedatos-screen.css static/tacosdedatos-screen.css
-
-cd ~
+cp ~/voila-template/static/tacosdedatos-global.css ~/.local/share/jupyter/voila/templates/tdd-template/static/tacosdedatos-global.css
+cp ~/voila-template/static/tacosdedatos-screen.css ~/.local/share/jupyter/voila/templates/tdd-template/static/tacosdedatos-screen.css
